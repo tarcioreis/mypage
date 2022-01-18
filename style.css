@@ -1,0 +1,88 @@
+html{
+    background-image: linear-gradient(to right, silver, silver, silver);
+}
+h1{
+    color:white;
+    text-align: center;
+}
+
+nav{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+a{
+    text-decoration-line: none;
+}
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 20px;
+}
+.titulo{
+    color: rgb(78, 201, 78);
+}
+
+.sessao{
+    border: 10px dashed green;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#textogrande{
+    font-size: 24px;
+}
+
+.box{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+}
+
+@keyframes fadeBox {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#box_animado{
+    animation-name: fadeBox;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.container{
+    border: 3px solid gray;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+form, input, textarea, button{
+    display: block;
+    margin: 30px;
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color: gold;
+    border: none;
+    width: 260px;
+    text-align: center;
+    font-size: 14px;
+}
